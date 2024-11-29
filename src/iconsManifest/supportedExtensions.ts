@@ -553,6 +553,12 @@ export const extensions: IFileCollection = {
       format: FileFormat.svg,
     },
     {
+      icon: 'attw',
+      extensions: ['.attw.json'],
+      filename: true,
+      format: FileFormat.svg,
+    },
+    {
       // https://en.wikipedia.org/wiki/Audio_file_format
       icon: 'audio',
       extensions: [
@@ -2743,6 +2749,17 @@ export const extensions: IFileCollection = {
       icon: 'latino',
       extensions: [],
       languages: [languages.latino],
+      format: FileFormat.svg,
+    },
+    {
+      icon: 'language_configuration',
+      extensions: ['language-configuration.json'],
+      filename: true,
+      format: FileFormat.svg,
+    },
+    {
+      icon: 'language_configuration',
+      extensions: ['language-configuration.json'],
       format: FileFormat.svg,
     },
     {
